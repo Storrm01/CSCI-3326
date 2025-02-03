@@ -26,6 +26,29 @@ public class Main {
         Scanner input = new Scanner( System.in );
         char letter = input.next().charAt(0);
         System.out.println("You input the letter " + letter);
+
+        // Decision Makin Statements.
+        boolean x = false;
+        if ( x && false ){
+            System.out.println("Yes, false is equal to false.");
+        }
+    
+        // Ternary operator is handy for assigning a value using  decision making
+        // Uncool way to assign a value using decision making
+        String coolVar;
+        int num = 10;
+        if(num > 25){
+            coolVar = "Groovy";
+        }
+        else{
+            coolVar = "Aces";
+        }
+        // The cool way of assigning a value using decision making
+        coolVar = (num > 25) ? "Groovy" : "Aces";
+
+        System.out.println("coolVar is " +coolVar);
+
         
     }
+
 }
