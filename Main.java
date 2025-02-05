@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Main {
-    pubic static void main(String[] args){
+    public static void main(String[] args){
         
         // Comparison Operators.
         // ==, !=, >, <, >=, <=
@@ -17,7 +17,7 @@ public class Main {
         // System.out.printn("true == 1 : " + (true == 1));
         // System.out.println("2 > 3 > -1 : " + ('A' > 'B'));
         String word = "Hello";
-        System.out.println("Is Hello greater than Bye : " + (word.comparetTo("Bye") > 0));
+        System.out.println("Is Hello greater than Bye : " + (word.compareTo("Bye") > 0));
 
         // Comparing Characters with strings
         word = "Aardvark";
@@ -29,7 +29,7 @@ public class Main {
 
         // Decision Makin Statements.
         boolean x = false;
-        if ( x && false ){
+        if ( x == false ){
             System.out.println("Yes, false is equal to false.");
         }
     
