@@ -10,7 +10,7 @@ public class Main {
         System.out.println("7 > 2 : " + (7 > 2));
         System.out.println("7.2f > 2 : " + (7.2f > 2));
         System.out.println("A > B : " + ('A' > 'B'));
-        System.out.println("A == 65 : " + ('A' == 65));
+        System.out.println("A == 65 : ");
 
         // Deviating from C++
         // In Java we cannot compare booleans and numericals
