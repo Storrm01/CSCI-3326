@@ -39,6 +39,7 @@ public class Loops {
 
             x++;
         }
+        input.close();
     }
 
 }

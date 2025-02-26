@@ -15,5 +15,6 @@ public class StoringArrays {
         for(int element: arr2){
             System.out.println(element);
         }
+        input.close();
     }    
 }

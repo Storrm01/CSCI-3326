@@ -25,6 +25,7 @@ public class vectors {
         numVect.clear();
         // Verify
         System.out.println("Vector size" + numVect.size());
+        
         }
 }
 

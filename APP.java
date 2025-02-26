@@ -26,6 +26,6 @@ public class APP{
         age = input.nextInt();
 
         System.out.println(name + " is " + age + " years old.");
-        
+        input.close();
     }
 }

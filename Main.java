@@ -48,7 +48,7 @@ public class Main {
 
         System.out.println("coolVar is " +coolVar);
 
-        
+        input.close();
     }
 
 }
