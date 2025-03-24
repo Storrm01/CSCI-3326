@@ -5,7 +5,7 @@ public class Classes {
         System.out.println();
 
         // Can use pet class from different file without importing due to being in the same folder
-        Pet dog1 = new Pet("Spot", 6);
+        Dog dog1 = new Dog("Spot", 6);
         dog1.name = "Bubbles";
         System.out.println(dog1);
         
@@ -13,5 +13,12 @@ public class Classes {
         // dog2.name = "Patrick";
 
         // If I want to create an Example object, Example must be static.
+
+        // Create object from Dog
+        // Dog dog1 = new Dog();
+        // dog1.breed = "Germain Sheppard";
+
+        // System.out.println(dog1.breed);
+        
     }
 }

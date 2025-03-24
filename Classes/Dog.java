@@ -1,5 +1,5 @@
 package Classes;
-public class Pet{
+public class Dog{
     // Attributes - global variables inside the class.
     public String name;
     public int age;
@@ -12,16 +12,18 @@ public class Pet{
     // How many constructors can I have
     // You can have multiple constructors*
     // They must have different parameters.
-        Pet() {
+        Dog() {
             name = "Scooby";
             age = 0;
         }
-        Pet(String n){
+        Dog(String n){
             name = n;
             age = 0;
         }
-        Pet(String n, int a){
+        Dog(String n, int a){
             name = n;
             age = a;
         }
+
+    
 }
