@@ -1,0 +1,7 @@
+Polymorphism
+
+Polymorphism - the ability where an entity (objects & methods) can take multiplle forms.
+
+2 Categories:
+    - Overload(Only methods)
+    - Override(Only methods)
