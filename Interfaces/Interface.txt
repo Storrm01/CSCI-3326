@@ -1,0 +1,7 @@
+Abstract Class - A class that cannot be instantiated (can't make object)
+                - To use an Abstract classm we need to inherit it.
+Abstract Methods - Needs to overriden by non-abstract inheriting class.
+
+Interface - Is a fully abstract class
+    - By default, all methods are public & abstract.
+    - By default, all attributes are static & final
