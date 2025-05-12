@@ -1,6 +1,6 @@
 Polymorphism
 
-Polymorphism - the ability where an entity (objects & methods) can take multiplle forms.
+Polymorphism - the ability where an entity (objects & methods) can take multiple forms.
 
 2 Categories:
     - Overload(Only methods)
